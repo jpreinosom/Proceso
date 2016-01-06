@@ -5,7 +5,7 @@ import pe.interbank.captaciones.Captacion;
 	ruleflow-group "captaciones"
        dialect "mvel"
        when
-	        f1 : Captacion( edad <= 25 , puntaje >= 1000 )
+	        f1 : Captacion( edad >= 25 , puntaje >= 1000 )
       then
 	        f1.setViaRapida( true );
 	end
