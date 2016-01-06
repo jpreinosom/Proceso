@@ -1,0 +1,99 @@
+
+<form id="625200467">
+<property name="subject" value=""/>
+<property name="name" value="Captaciones.Captaciones-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="Captacion_edad" type="InputTextPrimitiveInteger" id="581242173">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;edad (Captacion)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Captacion/edad"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="1" name="Captacion_puntaje" type="InputTextPrimitiveInteger" id="1935295020">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;puntaje (Captacion)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Captacion/puntaje"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="2" name="Captacion_viaRapida" type="CheckBox" id="2110858132">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;viaRapida (Captacion)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Captacion/viaRapida"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="edad" type="InputTextInteger" id="1124262181">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;edad (edad)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="edad"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="puntaje" type="InputTextInteger" id="230907045">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;puntaje (puntaje)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="puntaje"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="viaRapida" type="CheckBox" id="413652334">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;viaRapida (viaRapida)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="viaRapida"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="Cuenta_derechoCuenta" type="CheckBox" id="1378945618">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;derechoCuenta (Cuenta)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Cuenta/derechoCuenta"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="Cuenta_monto" type="InputTextPrimitiveInteger" id="937691252">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;monto (Cuenta)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Cuenta/monto"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="8" name="Cuenta_producto" type="CheckBox" id="1274552240">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;producto (Cuenta)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="Cuenta/producto"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="derechoCuenta" type="CheckBox" id="2097714771">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;derechoCuenta (derechoCuenta)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="derechoCuenta"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="10" name="monto" type="InputTextInteger" id="824940383">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;monto (monto)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="monto"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="producto" type="CheckBox" id="1307545289">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;producto (producto)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="producto"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="Captacion" value="pe.interbank.captaciones.Captacion" id="Captacion"/>
+<dataHolder inputId="" name="#9BCAFA" type="dataModelerEntry" outId="Cuenta" value="pe.interbank.captaciones.Cuenta" id="Cuenta"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="derechoCuenta" value="java.lang.Boolean" id="derechoCuenta"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="edad" value="java.lang.Integer" id="edad"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="monto" value="java.lang.Integer" id="monto"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="producto" value="java.lang.Boolean" id="producto"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="puntaje" value="java.lang.Integer" id="puntaje"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="viaRapida" value="java.lang.Boolean" id="viaRapida"/>
+</form>
